@@ -6,8 +6,8 @@ threadsafe: true
 
 handlers:
 - url: (.*)/
-  static_files: church\1/home.html
-  upload: church/home.html
+  static_files: church\1/home-minify.html
+  upload: church/home-minify.html
 
 - url: /
   static_dir: church
