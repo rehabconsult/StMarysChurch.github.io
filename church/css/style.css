@@ -22,7 +22,7 @@ html, body {
 	min-height:100%;
 }
 body {
-	background:url(images/bg_body.jpg);
+	background:url(../img/bg_body.jpg);
 	color:#000;                                                     
 	font-family:'Open Sans', Arial, sans-serif;
 	font-size:14px;
@@ -183,7 +183,7 @@ input[type=text],
 input[type=email],
 textarea {
 	background:#f2f2f2;
-	background:url(images/bg_input_body.png);
+	background:url(../img/bg_input_body.png);
 	background:rgba(0,0,0,0.05);
 	border:1px #d4d4d4 solid;
 	color:#555;
@@ -228,13 +228,13 @@ button:active,
 }
 #header .logo a {
 	float:left;
-	background:url(images/logo.png) no-repeat;
+	background:url(../img/logo.png) no-repeat;
 	width:228px;
 	height:37px;
 	text-indent:-9999px;
 }
 #header .nav {
-	background:url(images/bg_box.png) repeat-x;
+	background:url(../img/bg_box.png) repeat-x;
 	border:1px #dadada solid;
 	clear:left;
 	float:left;
@@ -253,7 +253,7 @@ button:active,
 	z-index:999;
 }
 .navbar ul li {
-	background:url(images/nav_divider.png) no-repeat right;
+	background:url(../img/nav_divider.png) no-repeat right;
 	float:left;
 	list-style:none;
 	margin-left:0;
@@ -338,7 +338,7 @@ button:active,
 
 /* Ribbon */
 #ribbon {
-	background:url(images/bg_ribbon.png);
+	background:url(../img/bg_ribbon.png);
 }
 #ribbon.home {
 	height:420px;
@@ -362,7 +362,7 @@ button:active,
 
 /* Homepage Slider */
 .slide_frame {
-	background:url(images/slide_frame_bg.png) no-repeat 0 20px;
+	background:url(../img/slide_frame_bg.png) no-repeat 0 20px;
 	height:364px;
 	margin:0 auto;
 	margin-left:2px;
@@ -371,7 +371,7 @@ button:active,
 	width:960px;
 }
 .slide_frame.empty {
-	background:url(images/slide_frame_bg_empty.png) no-repeat top left;
+	background:url(../img/slide_frame_bg_empty.png) no-repeat top left;
 	margin-top:20px;
 }
 #slider {
@@ -434,7 +434,7 @@ button:active,
 }
 .mask .slide_content span {
 	background:#000;
-	background:url(images/slide_content_bg.png);
+	background:url(../img/slide_content_bg.png);
 	background:rgba(0,0,0,0.75);
 	padding:5px 10px;
 }
@@ -493,7 +493,7 @@ button:active,
 }
 .widget h3,
 .home_widget h3 {
-	background:url(images/bg_box.png) repeat-x;
+	background:url(../img/bg_box.png) repeat-x;
 	border:1px #dadada solid;
 	color:#555;
 	font-size:18px;
@@ -532,7 +532,7 @@ button:active,
 
 /* Social Footer */
 .social_bar {
-	background:url(images/bg_social_footer.png) repeat-x;
+	background:url(../img/bg_social_footer.png) repeat-x;
 	border:1px #dadada solid;
 	height:60px;
 	margin-bottom:40px;
@@ -566,25 +566,25 @@ button:active,
 	text-indent:-9999px;
 }
 .social_bar .connect a.facebook {
-	background:url(images/socialbar-facebook.png) no-repeat left top;
+	background:url(../img/socialbar-facebook.png) no-repeat left top;
 	width:103px;
 }
 .social_bar .connect a.twitter {
-	background:url(images/socialbar-twitter.png) no-repeat left top;
+	background:url(../img/socialbar-twitter.png) no-repeat left top;
 	width:107px;
 }
 .social_bar .connect a.flickr {
-	background:url(images/socialbar-flickr.png) no-repeat left top;
+	background:url(../img/socialbar-flickr.png) no-repeat left top;
 	width:73px;
 }
 .social_bar .connect a.youtube {	
-	background:url(images/socialbar-youtube.png) no-repeat left top;
+	background:url(../img/socialbar-youtube.png) no-repeat left top;
 	width:77px;
 	height:32px;
 	margin-top:16px;
 }
 .social_bar .connect a.vimeo {
-	background:url(images/socialbar-vimeo.png) no-repeat left top;
+	background:url(../img/socialbar-vimeo.png) no-repeat left top;
 	width:81px;
 	height:24px;
 	margin-top:18px;
@@ -739,7 +739,7 @@ button:active,
 /* Post Comments */
 .single-comment {
 	background:#f2f2f2;
-	background:url(images/bg_input_body.png);
+	background:url(../img/bg_input_body.png);
 	background:rgba(0,0,0,0.05);
 	border:1px #d3d3d3 solid;
 	padding:20px;
@@ -796,7 +796,7 @@ ul.children li {
 }
 #respond .comment-form-comment textarea, #respond .comment-form-comment input {
 	background:#f2f2f2;
-	background:url(images/bg_input_body.png);
+	background:url(../img/bg_input_body.png);
 	background:rgba(0,0,0,0.05);
 	border:none;
 	border:1px #d3d3d3 solid;
@@ -821,7 +821,7 @@ ul.children li {
 	width:100%;
 }
 #em-loading {
-	background:#0e0f10 url(images/loading.gif) 50% 50% no-repeat !important;
+	background:#0e0f10 url(../img/loading.gif) 50% 50% no-repeat !important;
 	border-radius:6px;
 	-webkit-border-radius:6px;
 	-moz-border-radius:6px;
@@ -854,7 +854,7 @@ table.em-calendar td.eventful-today a:hover {
 }
 .eventless-today {
 	background-color:#cacac2 !important;
-	background:url(images/bg_box.png) !important;
+	background:url(../img/bg_box.png) !important;
 	background:rgba(255,255,255,0.1) !important;
 }
 .dbem-calendar .dbem-calendar-table {
@@ -864,7 +864,7 @@ table.em-calendar td.eventful-today a:hover {
 .dbem-calendar .eventless-today,
 .dbem-calendar .today {
 	background:#cacac2 !important;
-	background:url(images/bg_box.png) !important;
+	background:url(../img/bg_box.png) !important;
 	background:rgba(255,255,255,0.1) !important;
 }
 .ui-datepicker * {
@@ -876,12 +876,12 @@ table.em-calendar td.eventful-today a:hover {
 	color:#2e2e2b !important;
 }
 .ui-widget-header {
-	background:url(images/bg_social_footer.png) !important;
+	background:url(../img/bg_social_footer.png) !important;
 	border:none !important;
 }
 .ui-widget-header .ui-icon-circle-triangle-w,
 .ui-widget-header .ui-icon-circle-triangle-e {
-	background-image:url(images/ui-icons_256x240.png) !important;
+	background-image:url(../img/ui-icons_256x240.png) !important;
 }
 .ui-datepicker-prev-hover {
 	left:2px !important;
@@ -897,7 +897,7 @@ table.em-calendar td.eventful-today a:hover {
 	top:2px !important;
 }
 .ui-state-default {
-	background:url(images/bg_body.jpg) !important;
+	background:url(../img/bg_body.jpg) !important;
 	border:none !important;
 	color:#a9a99f !important;
 	text-align:center !important;
@@ -919,7 +919,7 @@ table.em-calendar td.eventful-today a:hover {
 	width:100%;
 }
 #current-events th {
-	background:url(images/bg_social_footer.png);
+	background:url(../img/bg_social_footer.png);
 	border:1px #dadada solid;
 	color:#555;
 	font-weight:400;
