@@ -2,6 +2,7 @@ One-Church
 ==========
 A static church website for Google Appengine.
 Most of the files are static HTML so can be used on any platform.
+Check it here in action : http://www.stmarysorthodoxchurch.ca/
 
 How to run?
 -----------
