@@ -26,6 +26,6 @@ func admin(w http.ResponseWriter, r *http.Request) {
     } else if u.Email != "roneythomas6@gmail.com" {
     	fmt.Fprintf(w, "Not Authorized User")
     } else {
-    	fmt.Fprintf(w, "Welcome .. ")
+    	http.ServeFile(w, r, "app/admin.html")
     }
 }
