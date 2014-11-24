@@ -8,7 +8,6 @@ handlers:
 - url: (.*)/
   static_files: church\1/home.html
   upload: church/home.html
-  secure: always
 
 - url: /
   static_dir: church
