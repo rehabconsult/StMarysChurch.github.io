@@ -207,12 +207,12 @@
             <script type="application/javascript">
                 var firebaseRef = new Firebase("https://stmarystoronto.firebaseio.com/upComingEvents");
                 firebaseRef.once("value", function (snapshot) {
-
+                    $("#firebase-schdule").cleanData(); // To be removed after full firebase support
                     snapshot.forEach(function(childSnapshot) {
                         // key will be "fred" the first time and "barney" the second time
                         var childData = childSnapshot.val();
-                        $( "#firebase-schedule" ).append(childData.head);
-                        $( "#firebase-schedule" ).append(childData.schedule);
+
+                        $("#firebase-schedule").append(childData.head).append(childData.schedule);
                     });
                 }, function (errorObject) {
                     console.log("The read failed: " + errorObject.code);
