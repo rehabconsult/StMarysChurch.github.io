@@ -90,7 +90,28 @@
                                             </li>
                                             <li>
                                                 <div class="slide">
-                                                    <img width="924" height="345" src="img/Toronto-Skyline-Panorama.jpg" class="attachment-slide wp-post-image" alt="Toronto" title="" />
+                                                   <script type="text/javascript">
+    var now = new Date();
+    var today = now.getDay();
+    var startTime = new Date();
+    startTime.setHours(08);
+    startTime.setMinutes(23);
+    startTime.setSeconds(00);
+    var endTime = new Date();
+    endTime.setHours(14);
+    endTime.setMinutes(43);
+    endTime.setSeconds(00);
+
+    if (today > 0 && today < 6)
+        {
+        if (startTime < now && endTime > now)
+            {document.write('<img width="924" height="345" src="img/Toronto-Skyline-Panorama.jpg">');}
+        else
+            {document.write('<img width="924" height="345" src="img/torontoSkylinePanoramaDay.jpg">');}
+        }
+    else
+        {document.write('<img width="924" height="345" src="img/torontoSkylinePanoramaDay.jpg">');}
+</script>
                                                     <div class="slide_content_holder">
                                                         <div class="slide_content">
                                                             <h2 class="title"><span>Toronto</span></h2>
